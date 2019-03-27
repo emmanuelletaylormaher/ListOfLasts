@@ -1,48 +1,5 @@
 <?php
 
-//prepopulated string array
-$prepop = array("SWCl5mPBJR",
-				"Vil0atLoa2",
-				"rsjGA9K63F",
-				"haoUei9d3Y",
-				"IBdyYJIq7v",
-				"gnV3MGjRPN",
-				"JTPB3BHt3l",
-				"zxGS3GEEWG",
-				"OHx9EhBP8C",
-				"OQgsycOXL4",
-				"GuTQnY3XZL",
-				"VosSisghr9",
-				"4M1kzw9Jjk",
-				"KMEe28wMvU",
-				"yNrfJi9IlS",
-				"05sW4TkQEf",
-				"bbvYT0mMXB",
-				"SZzbZLWFi6",
-				"52Krr0H7wS",
-				"WVK2ME0eam",
-				"xpwMGObqTv",
-				"IhsdxLAFnZ",
-				"9viXAantCv",
-				"4Bm5XKp3Ub",
-				"REsLbYH1af",
-				"OAFjR7fqfO",
-				"E6MJqLdzDw",
-				"J2Y2gjYD0H",
-				"XZ1tHn0iY0",
-				"DaHEfzIolC",
-				"3gdF7YnTHX",
-				"4VTB9Ch6wL",
-				"FXVrsPSPwU",
-				"Pv6ui5YDeV",
-				"QGqaam1DYc",
-				"CXmJnF3cZN",
-				"fR0OBzccM7",
-				"iLFLyX6mpw",
-				"sUGBTPqdFX",
-				"OCXkR4BfEY");
-$prepop_rand = array_rand($prepop);
-
 
 //Helps determine grammar based on pronoun of person
 function pronounGrammar(string $gender="they")

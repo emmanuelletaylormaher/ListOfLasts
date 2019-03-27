@@ -22,12 +22,6 @@
 	<title>LIST OF LASTS</title>
 </head>
 <body>
-	<h1>
-		<?php
-			while(!empty($sentences))
-				echo array_pop($sentences);
-		?>
-	</h1>
 	
 	<h2>
 		<?php

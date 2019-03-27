@@ -18,9 +18,20 @@ if(!$testRun){
   $surveyBean->faveColor;
   $surveyBean->faveMusic;
   $surveyBean->favePlace;
-  $surveyBean->proudest;
-  $surveyBean->beforeHere;
+  $surveyBean->season;
+  //binary description questions go here
   $surveyBean->lastAte
+  $surveyBean->beforeHere;
+  $surveyBean->proudest;
+  $surveyBean->darkTime;
+  $surveyBean->celebrated;
+  //surviving relatives
+  //value most
+  //last spoke with
+  $surveyBean->youTold;
+  $surveyBean->toldYou
+  //see anybody one last time
+  //content
   $beanId = R::store( $surveyBean );
   echo '<p style="color:#bada55;">'.$beanId.'</p>';
 }
