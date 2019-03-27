@@ -24,6 +24,7 @@
 	<title>List of Lasts</title>
 	<link href="https://fonts.googleapis.com/css?family=Sniglet" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<style>
   		body { background: #000; color: #fff; font-family: 'Merriweather', "Arial", sans-serif; }
   		div { margin: 30px auto; width: 50%;
@@ -39,6 +40,10 @@
 	<div style="text-align:center">
 	<h1>Your List of Lasts</h1>
 	<h3>DISCLAIMER: All information you put here will be shared publicly.</h3>
+		<form action="survey.php" name="survey" method="POST">
+		<h4>What is your first name?</h4>
+		<input type="text" action="survey.php" name="name">
+	</form>
 	</div>
 
 </body>
