@@ -39,10 +39,84 @@
 <body>
 	<div style="text-align:center">
 	<h1>Your List of Lasts</h1>
-	<h3>DISCLAIMER: All information you put here will be shared publicly.</h3>
+	<h3>YOUR FAKE DEATH IS OUR ART</h3>
 		<form action="survey.php" name="survey" method="POST">
 		<h4>What is your first name?</h4>
-		<input type="text" action="survey.php" name="name">
+		<input type="text" action="survey.php" name="name" placeholder="Analysse? Edgar? Ned?">
+
+		<h4>What are your pronouns?</h4>
+		
+		<input type="radio" name="gender" value="they">
+		<label for="they">They/Them/Theirs</label>
+		<br>
+		<input type="radio" name="gender"
+		value="she">
+		<label for="she">She/Her/Hers</label>
+		<br>
+		<input type="radio" name="gender" value="he">
+		<label for="he">He/Him/His</label>
+		<br>
+
+		<h4>How old are you?</h4>
+		<input type="text" action="survey.php" name="age" placeholder="Don't be shy.">
+
+		<h4>What's your occupation?</h4>
+		<input type="text" action="survey.php" name="occupation" placeholder="e.g. Student, Artist">
+
+		<h4>Favorite color?</h4>
+		<input type="radio" name="faveColor" value="Blue">
+		<label for="Blue">Blue</label>
+		<br>
+		<input type="radio" name="faveColor"
+		value="Red">
+		<label for="Red">Red</label>
+		<br>
+		<input type="radio" name="faveColor" value="Yellow">
+		<label for="Yellow">Yellow</label>
+		<br>
+		<input type="radio" name="faveColor" value="Green">
+		<label for="Green">Green</label>
+		<br>
+		<input type="radio" name="faveColor" value="Purple">
+		<label for="Purple">Purple</label>
+		<br>
+		<input type="radio" name="faveColor" value="Orange">
+		<label for="Orange">Orange</label>
+		<br>
+		<input type="radio" name="faveColor" value="Black">
+		<label for="Black">Black</label>
+		<br>
+		<input type="radio" name="faveColor" value="White">
+		<label for="White">White</label>
+		<br>
+		<input type="radio" name="faveColor" value="Other">
+		<label for="Other">Other</label>
+		<br>
+
+		<h4>What's your favorite kind of music?</h4>
+		<input type="text" action="survey.php" name="faveMusic" placeholder="Except Rap and Country (just kidding).">
+
+		<h4>Where's your favorite place to go?</h4>
+		<input type="text" action="survey.php" name="favePlace" placeholder="e.g. Say Sí">
+		
+		<h4>Your favorite season?</h4>
+		<input type="radio" name="season" value="Spring">
+		<label for="Spring">Spring</label>
+		<br>
+		<input type="radio" name="season"
+		value="Summer">
+		<label for="Summer">Summer</label>
+		<br>
+		<input type="radio" name="season" value="Autumn">
+		<label for="Autumn">Autumn</label>
+		<br>
+		<input type="radio" name="season" value="Winter">
+		<label for="Winter">Winter</label>
+		<br>
+
+		<h6>For the next part: You'll be choosing between several options that are presented to you. Select the one that describes you the best.</h6>
+
+		<h4>I am.....</h4>
 	</form>
 	</div>
 
