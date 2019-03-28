@@ -4,7 +4,7 @@
 	require 'madlib.php';
 
 	$sentences = array();
-	
+
 	array_push($sentences, shyConfident(rand(1, 2), "stevan", "he"));
 	array_push($sentences, clumsyGraceful(rand(1, 2), "stevan", "he"));
 	array_push($sentences, mellowIntense(rand(1, 2), "stevan", "he"));
@@ -15,9 +15,7 @@
 	shuffle($sentences);
 
 	// everything("stevan", "he", "answer one", "answer two", "answer three");
-?>
-
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -34,6 +32,7 @@
   		#mySpecialDiv { background: #000; }
   		p { font-size: .8em; }
   		/*div p { font-size: 4em; }*/
+  		h3 {}
 	</style>
 </head>
 <body>
@@ -45,7 +44,7 @@
 		<input type="text" action="survey.php" name="name" placeholder="Analysse? Edgar? Ned?">
 
 		<h4>What are your pronouns?</h4>
-		
+
 		<input type="radio" name="gender" value="they">
 		<label for="they">They/Them/Theirs</label>
 		<br>
@@ -98,7 +97,7 @@
 
 		<h4>Where's your favorite place to go?</h4>
 		<input type="text" action="survey.php" name="favePlace" placeholder="e.g. Say Sí">
-		
+
 		<h4>Your favorite season?</h4>
 		<input type="radio" name="season" value="Spring">
 		<label for="Spring">Spring</label>
@@ -117,6 +116,30 @@
 		<h6>For the next part: You'll be choosing between several options that are presented to you. Select the one that describes you the best.</h6>
 
 		<h4>I am.....</h4>
+		<br>
+    <input type="radio" name="emoSHCAS" id="emoSHA" value="sharp"><label for="emoSHA">Sharp<br>
+    <input type="radio" name="emoSHCAS" id="emoCAS" value="casual"><label for="emoCAS">Casual<br>
+		<br>
+    <input type="radio" name="emoCLUGRA" id="emoCLU" value="clumsy"><label for="emoCLU">Clumsy<br>
+    <input type="radio" name="emoCLUGRA" id="emoGRA" value="graceful"><label for="emoGRA">Graceful<br>
+		<br>
+    <input type="radio" name="emoSHYCON" id="emoSHY" value="shy"><label for="emoSHY">Shy<br>
+    <input type="radio" name="emoSHYCON" id="emoCON" value="confident"><label for="emoCON">Confident<br>
+		<br>
+    <input type="radio" name="emoMELINT" id="emoMEL" value="mellow"><label for="emoMEL">Mellow<br>
+    <input type="radio" name="emoMELINT" id="emoINT" value="intense"><label for="emoINT">Intense<br>
+		<br>
+    <input type="radio" name="emoORGMES" id="emoORG" value="organized"><label for="emoORG">Organized<br>
+    <input type="radio" name="emoORGMES" id="emoMES" value="messy"><label for="emoMES">Messy<br>
+		<br>
+    <input type="radio" name="emoAGRDOC" id="emoAGR" value="aggressive"><label for="emoAGR">Aggressive<br>
+    <input type="radio" name="emoAGRDOC" id="emoAGR" value="docile"><label for="emoDOC">Docile<br>
+		<br>
+    <input type="radio" name="emoADVCAU" id="emoADV" value="adventurous"><label for="emoADV">Adventurous<br>
+    <input type="radio" name="emoADVCAU" id="emoCAU" value="cautious"><label for="emoCAU">Cautious<br>
+		<br>
+    <input type="radio" name="emoSTRWEA" id="emoSTR" value="strong"><label for="emoSTR">Strong<br>
+    <input type="radio" name="emoSTRWEA" id="emoWEA" value="weak"><label for="emoWEA">Weak<br>
 	</form>
 	</div>
 
