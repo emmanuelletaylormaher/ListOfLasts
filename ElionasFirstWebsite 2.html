@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+  <title>Something</title>
+  <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<style>
+
+  body { background: #000; color: #fff; font-family: 'Merriweather', "Arial", sans-serif;
+padding: 3em 2em; font-size: 2em; margin: 30px auto; text-align: 1em 1em 1em 1em}
+
+  input { background: #000; color: #fff; font-size: 1em; }
+
+</style>
+
+<form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;
+     margin-right: 7px;
+     outline: none;
+}
+<form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 300 16px/1.7 'Open Sans', sans-serif;
+     color: #666;
+     cursor: pointer;
+}
+
+
+</head>
+<body>
+      <form action='index.php' name="myForm" method="POST">
+        Are you okay with sharing your answers with the public? <br>
+        <input type="radio" name="results" id="yes" value="yes"><label for="yes">Yes</label><br>
+        <input type="radio" name="results" id="no" value="no"><label for="no">No</label><br>
+<br>
+        First Name <br>
+        <input type="text" action="index.php" name="firstname"><br>
+        Last Name <br>
+        <input  type="text" action="index.php" name="lastname"><br>
+<br>
+        Age <br>
+        <input  type="text" action="index.php" name="age"><br>
+<br>
+        What is your current occupation? <br>
+        <input  type="text" action="index.php" name="occupation"><br>
+<br>
+        What is your favorite Color?:<br>
+        <input type="radio" name="color" id="colorb" value="blue"><label for="colorb">Blue<br>
+        <input type="radio" name="color" id="colorg" value="green"><label for="colorg">Green<br>
+        <input type="radio" name="color" id="colory" value="blue"><label for="colory">Yellow<br>
+        <input type="radio" name="color" id="coloro" value="green"><label for="coloro">Orange<br>
+<br>
+        Are you:<br>
+        <input type="radio" name="sex" id="sexm" value="male"><label for="sexm">Male</label><br>
+        <input type="radio" name="sex" id="sexf" value="female"><label for="sexf">Female</label><br>
+
+        <input type="text"  name="sex" id="sexo" action="index.php" value="Other"><br>
+<br>
+        Are you:<br>
+        <input type="radio" name="emoSHCAS" id="emoSHA" value="sharp"><label for="emoSHA">Sharp<br>
+        <input type="radio" name="emoSHCAS" id="emoCAS" value="casual"><label for="emoCAS">Casual<br>
+<br>
+        Are you:<br>
+        <input type="radio" name="emoCLUGRA" id="emoCLU" value="clumsy"><label for="emoCLU">Clumsy<br>
+        <input type="radio" name="emoCLUGRA" id="emoGRA" value="graceful"><label for="emoGRA">Graceful<br>
+<br>
+        Are you:<br>
+        <input type="radio" name="emoSHYCON" id="emoSHY" value="shy"><label for="emoSHY">Shy<br>
+        <input type="radio" name="emoSHYCON" id="emoCON" value="confident"><label for="emoCON">Confident<br>
+<br>
+        Are you:<br>
+        <input type="radio" name="emoMELINT" id="emoMEL" value="mellow"><label for="emoMEL">Mellow<br>
+        <input type="radio" name="emoMELINT" id="emoINT" value="intense"><label for="emoINT">Intense<br>
+<br>
+        Are you:<br>
+        <input type="radio" name="emoORGMES" id="emoORG" value="organized"><label for="emoORG">Organized<br>
+        <input type="radio" name="emoORGMES" id="emoMES" value="messy"><label for="emoMES">Messy<br>
+<br>
+        Are you:<br>
+        <input type="radio" name="emoAGRDOC" id="emoAGR" value="aggressive"><label for="emoAGR">Aggressive<br>
+        <input type="radio" name="emoAGRDOC" id="emoAGR" value="docile"><label for="emoDOC">Docile<br>
+<br>
+        Are you:<br>
+        <input type="radio" name="emoADVCAU" id="emoADV" value="adventurous"><label for="emoADV">Adventurous<br>
+        <input type="radio" name="emoADVCAU" id="emoCAU" value="cautious"><label for="emoCAU">Cautious<br>
+<br>
+        Are you:<br>
+        <input type="radio" name="emoSTRWEA" id="emoSTR" value="strong"><label for="emoSTR">Strong<br>
+        <input type="radio" name="emoSTRWEA" id="emoWEA" value="weak"><label for="emoWEA">Weak<br>
+
+      </form>
+  <span></span>
+</body>
+</html>
