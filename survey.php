@@ -117,29 +117,63 @@
 
 		<h4>I am.....</h4>
 		<br>
-    <input type="radio" name="emoSHCAS" id="emoSHA" value="sharp"><label for="emoSHA">Sharp<br>
-    <input type="radio" name="emoSHCAS" id="emoCAS" value="casual"><label for="emoCAS">Casual<br>
-		<br>
-    <input type="radio" name="emoCLUGRA" id="emoCLU" value="clumsy"><label for="emoCLU">Clumsy<br>
-    <input type="radio" name="emoCLUGRA" id="emoGRA" value="graceful"><label for="emoGRA">Graceful<br>
-		<br>
-    <input type="radio" name="emoSHYCON" id="emoSHY" value="shy"><label for="emoSHY">Shy<br>
-    <input type="radio" name="emoSHYCON" id="emoCON" value="confident"><label for="emoCON">Confident<br>
-		<br>
-    <input type="radio" name="emoMELINT" id="emoMEL" value="mellow"><label for="emoMEL">Mellow<br>
-    <input type="radio" name="emoMELINT" id="emoINT" value="intense"><label for="emoINT">Intense<br>
-		<br>
-    <input type="radio" name="emoORGMES" id="emoORG" value="organized"><label for="emoORG">Organized<br>
-    <input type="radio" name="emoORGMES" id="emoMES" value="messy"><label for="emoMES">Messy<br>
-		<br>
-    <input type="radio" name="emoAGRDOC" id="emoAGR" value="aggressive"><label for="emoAGR">Aggressive<br>
-    <input type="radio" name="emoAGRDOC" id="emoAGR" value="docile"><label for="emoDOC">Docile<br>
-		<br>
-    <input type="radio" name="emoADVCAU" id="emoADV" value="adventurous"><label for="emoADV">Adventurous<br>
-    <input type="radio" name="emoADVCAU" id="emoCAU" value="cautious"><label for="emoCAU">Cautious<br>
-		<br>
-    <input type="radio" name="emoSTRWEA" id="emoSTR" value="strong"><label for="emoSTR">Strong<br>
-    <input type="radio" name="emoSTRWEA" id="emoWEA" value="weak"><label for="emoWEA">Weak<br>
+	    <input type="radio" name="emoSHCAS" id="emoSHA" value="sharp"><label for="emoSHA">Sharp<br>
+	    	or<br>
+	    <input type="radio" name="emoSHCAS" id="emoCAS" value="casual"><label for="emoCAS">Casual<br>
+			<br>
+	    <input type="radio" name="emoCLUGRA" id="emoCLU" value="clumsy"><label for="emoCLU">Clumsy<br>
+	    	or<br>
+	    <input type="radio" name="emoCLUGRA" id="emoGRA" value="graceful"><label for="emoGRA">Graceful<br>
+			<br>
+	    <input type="radio" name="emoSHYCON" id="emoSHY" value="shy"><label for="emoSHY">Shy<br>
+	    	or<br>
+	    <input type="radio" name="emoSHYCON" id="emoCON" value="confident"><label for="emoCON">Confident<br>
+			<br>
+	    <input type="radio" name="emoMELINT" id="emoMEL" value="mellow"><label for="emoMEL">Mellow<br>
+	    	or<br>
+	    <input type="radio" name="emoMELINT" id="emoINT" value="intense"><label for="emoINT">Intense<br>
+			<br>
+	    <input type="radio" name="emoORGMES" id="emoORG" value="organized"><label for="emoORG">Organized<br>
+	    	or<br>
+	    <input type="radio" name="emoORGMES" id="emoMES" value="messy"><label for="emoMES">Messy<br>
+			<br>
+	    <input type="radio" name="emoAGRDOC" id="emoAGR" value="aggressive"><label for="emoAGR">Aggressive<br>
+	    	or<br>
+	    <input type="radio" name="emoAGRDOC" id="emoAGR" value="docile"><label for="emoDOC">Docile<br>
+			<br>
+	    <input type="radio" name="emoADVCAU" id="emoADV" value="adventurous"><label for="emoADV">Adventurous<br>
+	    	or<br>
+	    <input type="radio" name="emoADVCAU" id="emoCAU" value="cautious"><label for="emoCAU">Cautious<br>
+			<br>
+	    <input type="radio" name="emoSTRWEA" id="emoSTR" value="strong"><label for="emoSTR">Strong<br>
+	    	or<br>
+	    <input type="radio" name="emoSTRWEA" id="emoWEA" value="weak"><label for="emoWEA">Weak<br>
+
+	    <h4>What was the last thing you ate?</h4>
+		<input type="text" action="survey.php" name="lastAte" placeholder="e.g. Barbacoa & Big Red">
+
+		<h4>Where were you before here?</h4>
+		<input type="text" action="survey.php" name="beforeHere" placeholder="School? Home? Work?">
+
+		<h6>Try to put some thought into these next questions:</h6>
+
+		<h4>What is your proudest accomplisment?</h4>
+		<input type="text" action="survey.php" name="proudest" placeholder="It could be anything!">
+
+		<h4>What was dark time in your life?</h4>
+		<input type="text" action="survey.php" name="proudest" placeholder="When was a time you felt low/unsure of yourself?">
+
+		<h4>What was dark time in your life?</h4>
+		<input type="text" action="survey.php" name="proudest" placeholder="When was a time you felt low/unsure of yourself?">
+
+		<h4>If your friends and family were to do an activity to remember you by— what would you want that activity to be?</h4>
+		<input type="text" action="survey.php" name="celebrated" placeholder="Dinner? Drinking? Singing?">
+
+		<h4>Are you content?</h4>
+		<input type="radio" name="content" value="yes"><label for="yes">Yes<br>
+	    <input type="radio" name="content" value="no"><label for="no">No<br>
+
+
 	</form>
 	</div>
 
