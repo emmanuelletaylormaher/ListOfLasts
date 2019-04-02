@@ -162,13 +162,16 @@
 		<input type="text" action="survey.php" name="proudest" placeholder="It could be anything!">
 
 		<h4>What was dark time in your life?</h4>
-		<input type="text" action="survey.php" name="proudest" placeholder="When was a time you felt low/unsure of yourself?">
-
-		<h4>What was dark time in your life?</h4>
-		<input type="text" action="survey.php" name="proudest" placeholder="When was a time you felt low/unsure of yourself?">
+		<input type="text" action="survey.php" name="dark" placeholder="When was a time you felt low/unsure of yourself?">
 
 		<h4>If your friends and family were to do an activity to remember you by— what would you want that activity to be?</h4>
 		<input type="text" action="survey.php" name="celebrated" placeholder="Dinner? Drinking? Singing?">
+
+		<h4>Who was the last person that told you they loved you?</h4>
+		<input type="text" action="survey.php" name="loveme" placeholder="Parent? Loved one? Sibling?">
+
+		<h4>Who was the last person that you told you loved?</h4>
+		<input type="text" action="survey.php" name="loveyou" placeholder="Parent? Loved one? Sibling?">
 
 		<h4>Are you content?</h4>
 		<input type="radio" name="content" value="yes"><label for="yes">Yes<br>
