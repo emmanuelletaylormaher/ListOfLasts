@@ -1,7 +1,8 @@
 <?php
 	require 'prepop.php';
-	require 'beanhook.php';
+	// require 'beanhook.php';
 	require 'madlib.php';
+	require 'logProcessorLOL.php';
 
 	$sentences = array();
 
