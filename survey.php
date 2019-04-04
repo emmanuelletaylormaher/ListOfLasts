@@ -2,7 +2,7 @@
 	require 'prepop.php';
 	// require 'beanhook.php';
 	require 'madlib.php';
-	require 'logProcessorLOL.php';
+	// require 'logProcessorLOL.php';
 
 	$sentences = array();
 
@@ -40,7 +40,7 @@
 	<div style="text-align:center">
 	<h1>Your List of Lasts</h1>
 	<h3>YOUR FAKE DEATH IS OUR ART</h3>
-		<form action="survey.php" name="survey" method="POST">
+		<form action="aftermath.php" name="survey" method="POST">
 		<h4>What is your first name?</h4>
 		<input type="text" action="survey.php" name="name" placeholder="Analysse? Edgar? Ned?">
 
@@ -177,7 +177,7 @@
 		<input type="radio" name="content" value="yes"><label for="yes">Yes<br>
 	    <input type="radio" name="content" value="no"><label for="no">No<br>
 
-
+		<input type="submit">
 	</form>
 	</div>
 
