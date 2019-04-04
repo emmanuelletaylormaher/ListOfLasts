@@ -153,8 +153,20 @@
 	    <h4>What was the last thing you ate?</h4>
 		<input type="text" action="survey.php" name="lastAte" placeholder="e.g. Barbacoa & Big Red">
 
+			<h4>Which do you value most?</h4>
+			<input type="radio" name="valued" id="family" value="family"><label for="friend">Friends<br>
+	    	or<br>
+	    <input type="radio" name="valued" id="friend" value=friend><label for="friend">Family<br>
+
 		<h4>Where were you before here?</h4>
 		<input type="text" action="survey.php" name="beforeHere" placeholder="School? Home? Work?">
+
+		<h4>What was the last person you spoke with?</h4>
+
+		<input type="radio" name="lastspoke" id="lastspokefr" value="friend"><label for="lastspokefr">Friend<br>
+		<input type="radio" name="lastspoke" id="lastspokefa" value="family"><label for="lastspokefa">Family<br>
+		<input type="radio" name="lastspoke" id="lastspokeso" value="sigother"><label for="lastspokeSO">Significant Other<br>
+		<input type="radio" name="lastspoke" id="lastspokest" value="stranger"><label for="lastspokest">Stranger<br>
 
 		<h6>Try to put some thought into these next questions:</h6>
 
@@ -172,6 +184,21 @@
 
 		<h4>Who was the last person that you told you loved?</h4>
 		<input type="text" action="survey.php" name="loveyou" placeholder="Parent? Loved one? Sibling?">
+
+		<h4>If you could see anybody one last time, who?</h4>
+		<input type="radio" name="lastseen" id="lastseenso" value="signiother"><label for="lastseenso">Significant<br>
+		<input type="radio" name="lastseen" id="lastseench" value="child"><label for="lastseench">Child<br>
+		<input type="radio" name="lastseen" id="lastseenmo" value="mother"><label for="lastseenmo">Mother<br>
+		<input type="radio" name="lastseen" id="lastseenfa" value="father"><label for="lastseenfa">Father<br>
+		<input type="radio" name="lastseen" id="lastseenbr" value="brother"><label for="lastseenbr">Brother<br>
+		<input type="radio" name="lastseen" id="lastseensi" value="sister"><label for="lastseensi">Sister<br>
+		<input type="radio" name="lastseen" id="lastseengrp" value="grandpa"><label for="lastseengrp">Grandpa<br>
+		<input type="radio" name="lastseen" id="lastseengrm" value="grandma"><label for="lastseengrm">Grandma<br>
+		<input type="radio" name="lastseen" id="lastseenun" value="uncle"><label for="lastseenun">Uncle<br>
+		<input type="radio" name="lastseen" id="lastseenau" value="aunt"><label for="lastseenau">Aunt<br>
+		<input type="radio" name="lastseen" id="lastseenco" value="cousin"><label for="lastseenco">Cousin<br>
+		<input type="radio" name="lastseen" id="lastseenfr" value="friend"><label for="lastseenfr">Friend<br>
+		<input type="text" action="survey.php" name="lastseen" placeholder="Other">
 
 		<h4>Are you content?</h4>
 		<input type="radio" name="content" value="yes"><label for="yes">Yes<br>
