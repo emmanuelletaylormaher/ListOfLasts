@@ -42,19 +42,21 @@
 	<h3>YOUR FAKE DEATH IS OUR ART</h3>
 		<form action="aftermath.php" name="survey" method="POST">
 		<h4>What is your first name?</h4>
-		<input type="text" action="survey.php" name="name" placeholder="Analysse? Edgar? Ned?">
+		<input type="text" action="aftermath.php" name="name" placeholder="Analysse? Edgar? Ned?">
 
 		<h4>What are your pronouns?</h4>
 
+		<label>
 		<input type="radio" name="gender" value="they">
-		<label for="they">They/Them/Theirs</label>
+		They/Them/Theirs</label>
 		<br>
-		<input type="radio" name="gender"
-		value="she">
-		<label for="she">She/Her/Hers</label>
+		<label>
+		<input type="radio" name="gender" value="she">
+		She/Her/Hers</label>
 		<br>
+		<label>
 		<input type="radio" name="gender" value="he">
-		<label for="he">He/Him/His</label>
+		He/Him/His</label>
 		<br>
 
 		<h4>How old are you?</h4>
@@ -64,33 +66,41 @@
 		<input type="text" action="survey.php" name="occupation" placeholder="e.g. Student, Artist">
 
 		<h4>Favorite color?</h4>
+		<label>
 		<input type="radio" name="faveColor" value="Blue">
-		<label for="Blue">Blue</label>
+		Blue</label>
 		<br>
-		<input type="radio" name="faveColor"
-		value="Red">
-		<label for="Red">Red</label>
+		<input type="radio" name="faveColor" value="Red">
+		<label>
+		Red</label>
 		<br>
+		<label>
 		<input type="radio" name="faveColor" value="Yellow">
-		<label for="Yellow">Yellow</label>
+		Yellow</label>
 		<br>
+		<label>
 		<input type="radio" name="faveColor" value="Green">
-		<label for="Green">Green</label>
+		Green</label>
 		<br>
+		<label>
 		<input type="radio" name="faveColor" value="Purple">
-		<label for="Purple">Purple</label>
+		Purple</label>
 		<br>
+		<label>
 		<input type="radio" name="faveColor" value="Orange">
-		<label for="Orange">Orange</label>
+		Orange</label>
 		<br>
+		<label>
 		<input type="radio" name="faveColor" value="Black">
-		<label for="Black">Black</label>
+		Black</label>
 		<br>
+		<label>
 		<input type="radio" name="faveColor" value="White">
-		<label for="White">White</label>
+		White</label>
 		<br>
+		<label>
 		<input type="radio" name="faveColor" value="Other">
-		<label for="Other">Other</label>
+		Other</label>
 		<br>
 
 		<h4>What's your favorite kind of music?</h4>
@@ -100,109 +110,238 @@
 		<input type="text" action="survey.php" name="favePlace" placeholder="e.g. Say Sí">
 
 		<h4>Your favorite season?</h4>
+		<label>
 		<input type="radio" name="season" value="Spring">
-		<label for="Spring">Spring</label>
+		Spring</label>
 		<br>
-		<input type="radio" name="season"
-		value="Summer">
-		<label for="Summer">Summer</label>
+		<input type="radio" name="season" value="Summer">
+		<label>
+		Summer</label>
 		<br>
+		<label>
 		<input type="radio" name="season" value="Autumn">
-		<label for="Autumn">Autumn</label>
+		Autumn</label>
 		<br>
+		<label>
 		<input type="radio" name="season" value="Winter">
-		<label for="Winter">Winter</label>
+		Winter</label>
 		<br>
+
+
+
+
+		<!-- START BINARY QUESTIONS -->
+
+
+
 
 		<h6>For the next part: You'll be choosing between several options that are presented to you. Select the one that describes you the best.</h6>
 
 		<h4>I am.....</h4>
 		<br>
-	    <input type="radio" name="emoSHCAS" id="emoSHA" value="sharp"><label for="emoSHA">Sharp<br>
-	    	or<br>
-	    <input type="radio" name="emoSHCAS" id="emoCAS" value="casual"><label for="emoCAS">Casual<br>
-			<br>
-	    <input type="radio" name="emoCLUGRA" id="emoCLU" value="clumsy"><label for="emoCLU">Clumsy<br>
-	    	or<br>
-	    <input type="radio" name="emoCLUGRA" id="emoGRA" value="graceful"><label for="emoGRA">Graceful<br>
-			<br>
-	    <input type="radio" name="emoSHYCON" id="emoSHY" value="shy"><label for="emoSHY">Shy<br>
-	    	or<br>
-	    <input type="radio" name="emoSHYCON" id="emoCON" value="confident"><label for="emoCON">Confident<br>
-			<br>
-	    <input type="radio" name="emoMELINT" id="emoMEL" value="mellow"><label for="emoMEL">Mellow<br>
-	    	or<br>
-	    <input type="radio" name="emoMELINT" id="emoINT" value="intense"><label for="emoINT">Intense<br>
-			<br>
-	    <input type="radio" name="emoORGMES" id="emoORG" value="organized"><label for="emoORG">Organized<br>
-	    	or<br>
-	    <input type="radio" name="emoORGMES" id="emoMES" value="messy"><label for="emoMES">Messy<br>
-			<br>
-	    <input type="radio" name="emoAGRDOC" id="emoAGR" value="aggressive"><label for="emoAGR">Aggressive<br>
-	    	or<br>
-	    <input type="radio" name="emoAGRDOC" id="emoAGR" value="docile"><label for="emoDOC">Docile<br>
-			<br>
-	    <input type="radio" name="emoADVCAU" id="emoADV" value="adventurous"><label for="emoADV">Adventurous<br>
-	    	or<br>
-	    <input type="radio" name="emoADVCAU" id="emoCAU" value="cautious"><label for="emoCAU">Cautious<br>
-			<br>
-	    <input type="radio" name="emoSTRWEA" id="emoSTR" value="strong"><label for="emoSTR">Strong<br>
-	    	or<br>
-	    <input type="radio" name="emoSTRWEA" id="emoWEA" value="weak"><label for="emoWEA">Weak<br>
+
+		<label>
+	    <input type="radio" name="sharpCasual" id="sharp" value="1">
+	    Sharp<br>
+		</label>
+	    or<br>
+	    <label>
+	    <input type="radio" name="sharpCasual" id="casual" value="2">
+	    Casual<br>
+		</label>
+
+		<br>
+		<label>
+	    <input type="radio" name="clumsyGraceful" id="clumsy" value="1">
+	    Clumsy<br>
+		</label>
+	    or<br>
+	    <label>
+	    <input type="radio" name="clumsyGraceful" id="graceful" value="2">
+	    Graceful<br>
+		</label>
+		<br>
+
+
+		<label>
+	    <input type="radio" name="shyConfident" id="shy" value="1">
+	    Shy<br>
+		</label>
+	    or<br>
+	    <label>
+	    <input type="radio" name="shyConfident" id="confident" value="2">
+	    Confident<br>
+		</label>
+		<br>
+		
+
+		<label>
+	    <input type="radio" name="mellowIntense" id="mellow" value="1">
+	    Mellow<br>
+		</label>
+	    or<br>
+	    <label>
+	    <input type="radio" name="mellowIntense" id="intense" value="2">
+	    Intense<br>
+		</label>
+		<br>
+
+
+		<label>
+	    <input type="radio" name="organizedMessy" id="organized" value="1">
+	    Organized<br>
+		</label>
+	    or<br>
+	    <label>
+	    <input type="radio" name="organizedMessy" id="messy" value="2">
+	    Messy<br>
+		</label>
+		<br>
+
+
+		<label>
+	    <input type="radio" name="aggressiveDocile" id="aggressive" value="1">
+	    Aggressive<br>
+		</label>
+	    or<br>
+	    <label>
+	    <input type="radio" name="aggressiveDocile" id="docile" value="2">
+	    Docile<br>
+		</label>
+		<br>
+
+
+
+		<label>
+	    <input type="radio" name="adventurousCautious" id="adventurous" value="1">
+	    Adventurous<br>
+		</label>
+	    or<br>
+	    <label>
+	    <input type="radio" name="adventurousCautious" id="cautious" value="2">
+	    Cautious<br>
+		</label>
+		<br>
+
+
+		<label>
+	    <input type="radio" name="strongWeak" id="strong" value="1">
+	    Strong<br>
+		</label>
+	    or<br>
+	    <label>
+	    <input type="radio" name="strongWeak" id="weakB" value="2">
+	    Weak<br>
+		</label>
+
+
+
+		<!-- END BINARY QUESTIONS -->
+
+
 
 	    <h4>What was the last thing you ate?</h4>
-		<input type="text" action="survey.php" name="lastAte" placeholder="e.g. Barbacoa & Big Red">
+		<input type="text" action="aftermath.php" name="lastAte" placeholder="e.g. Barbacoa & Big Red">
 
-			<h4>Which do you value most?</h4>
-			<input type="radio" name="valued" id="family" value="family"><label for="friend">Friends<br>
-	    	or<br>
-	    <input type="radio" name="valued" id="friend" value=friend><label for="friend">Family<br>
+		
+		<h4>Which do you value more?</h4>
+		<label>
+		<input type="radio" name="valued" id="family" value="family">
+		Friends<br>
+		</label>
+	    or<br>
+	    <label>
+	    <input type="radio" name="valued" id="friend" value=friend>
+	    Family<br>
+		</label>
 
 		<h4>Where were you before here?</h4>
-		<input type="text" action="survey.php" name="beforeHere" placeholder="School? Home? Work?">
+		<input type="text" action="aftermath.php" name="beforeHere" placeholder="School? Home? Work?">
 
 		<h4>What was the last person you spoke with?</h4>
 
-		<input type="radio" name="lastspoke" id="lastspokefr" value="friend"><label for="lastspokefr">Friend<br>
-		<input type="radio" name="lastspoke" id="lastspokefa" value="family"><label for="lastspokefa">Family<br>
-		<input type="radio" name="lastspoke" id="lastspokeso" value="sigother"><label for="lastspokeSO">Significant Other<br>
-		<input type="radio" name="lastspoke" id="lastspokest" value="stranger"><label for="lastspokest">Stranger<br>
+		<label>
+		<input type="radio" name="lastspoke" id="friend" value="friend">
+		Friend
+		</label>
+		<br>
+		<label>
+		<input type="radio" name="lastspoke" id="family" value="family">
+		Family
+		</label>
+		<br>
+		<label>
+		<input type="radio" name="lastspoke" id="sigother" value="sigother">
+		Significant Other<br>
+		</label>
+		<label>
+		<input type="radio" name="lastspoke" id="stranger" value="stranger">
+		Stranger<br>
+<label>
+
+		</label>
+</label>
 
 		<h6>Try to put some thought into these next questions:</h6>
 
 		<h4>What is your proudest accomplisment?</h4>
-		<input type="text" action="survey.php" name="proudest" placeholder="It could be anything!">
+		<input type="text" action="aftermath.php" name="proudest" placeholder="It could be anything!">
 
 		<h4>What was dark time in your life?</h4>
-		<input type="text" action="survey.php" name="dark" placeholder="When was a time you felt low/unsure of yourself?">
+		<input type="text" action="aftermath.php" name="dark" placeholder="When was a time you felt low/unsure of yourself?">
 
 		<h4>If your friends and family were to do an activity to remember you by— what would you want that activity to be?</h4>
-		<input type="text" action="survey.php" name="celebrated" placeholder="Dinner? Drinking? Singing?">
+		<input type="text" action="aftermath.php" name="celebrated" placeholder="Dinner? Drinking? Singing?">
 
 		<h4>Who was the last person that told you they loved you?</h4>
-		<input type="text" action="survey.php" name="loveme" placeholder="Parent? Loved one? Sibling?">
+		<input type="text" action="aftermath.php" name="loveme" placeholder="Parent? Loved one? Sibling?">
 
 		<h4>Who was the last person that you told you loved?</h4>
-		<input type="text" action="survey.php" name="loveyou" placeholder="Parent? Loved one? Sibling?">
+		<input type="text" action="aftermath.php" name="loveyou" placeholder="Parent? Loved one? Sibling?">
+
 
 		<h4>If you could see anybody one last time, who?</h4>
-		<input type="radio" name="lastseen" id="lastseenso" value="signiother"><label for="lastseenso">Significant<br>
-		<input type="radio" name="lastseen" id="lastseench" value="child"><label for="lastseench">Child<br>
-		<input type="radio" name="lastseen" id="lastseenmo" value="mother"><label for="lastseenmo">Mother<br>
-		<input type="radio" name="lastseen" id="lastseenfa" value="father"><label for="lastseenfa">Father<br>
-		<input type="radio" name="lastseen" id="lastseenbr" value="brother"><label for="lastseenbr">Brother<br>
-		<input type="radio" name="lastseen" id="lastseensi" value="sister"><label for="lastseensi">Sister<br>
-		<input type="radio" name="lastseen" id="lastseengrp" value="grandpa"><label for="lastseengrp">Grandpa<br>
-		<input type="radio" name="lastseen" id="lastseengrm" value="grandma"><label for="lastseengrm">Grandma<br>
-		<input type="radio" name="lastseen" id="lastseenun" value="uncle"><label for="lastseenun">Uncle<br>
-		<input type="radio" name="lastseen" id="lastseenau" value="aunt"><label for="lastseenau">Aunt<br>
-		<input type="radio" name="lastseen" id="lastseenco" value="cousin"><label for="lastseenco">Cousin<br>
-		<input type="radio" name="lastseen" id="lastseenfr" value="friend"><label for="lastseenfr">Friend<br>
-		<input type="text" action="survey.php" name="lastseen" placeholder="Other">
+		<label>
+		<input type="radio" name="lastseen" id="sigother" value="sigother">
+		Significant Other<br>
+		</label>
+		<label>
+		<input type="radio" name="lastseen" id="child" value="child">
+		Child<br>
+		</label>
+		<label>
+		<input type="radio" name="lastseen" id="parent" value="parent">
+		Parent/Guardian<br>
+		</label>
+		<label>
+		<input type="radio" name="lastseen" id="sibling" value="sibling">
+		Sibling<br>
+		</label>
+		<label>
+		<input type="radio" name="lastseen" id="grandparent" value="grandparent">
+		Grandparent<br>
+		</label>
+		<label>
+		<input type="radio" name="lastseen" id="relative" value="relative">
+		Other Relative<br>
+		</label>
+		<label>
+		<input type="radio" name="lastseen" id="friend" value="friend">
+		Friend<br>
+		</label>
+		<input type="text" action="aftermath.php" name="lastseen" placeholder="Other">
 
 		<h4>Are you content?</h4>
-		<input type="radio" name="content" value="yes"><label for="yes">Yes<br>
-	    <input type="radio" name="content" value="no"><label for="no">No<br>
+		<label>
+		<input type="radio" name="content" value="yes">
+		Yes
+		</label>
+		<br>
+	    <label>
+	    <input type="radio" name="content" value="no">
+	    No
+		</label>
+	    <br>
 
 		<input type="submit">
 	</form>
