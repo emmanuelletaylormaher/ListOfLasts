@@ -1,8 +1,15 @@
 <?php
 
+//sql query functions
+function countQuery($value, $columnName)
+{
+	$count = ("SELECT COUNT(*) FROM listoflasts WHERE ".$columnName." = ".$value.";");
+	return $count;
+}
+
 
 //Helps determine grammar based on pronoun of person
-function pronounGrammar(string $gender="they")
+function pronounGrammar($gender="they")
 {
 	$wereOrWas = "was";
 	//Check for pronoun for grammatical reasons
@@ -13,7 +20,7 @@ function pronounGrammar(string $gender="they")
 }
 
 //More grammar helper functions
-function himHisHerHers(string $gender="they", int $code)
+function himHisHerHers($gender="they", $code)
 {
 	//$code = 1 ——> him or her
 	if($code == 1)
@@ -37,7 +44,7 @@ function himHisHerHers(string $gender="they", int $code)
 }
 
 
-function shyConfident(int $ans=1, string $name, string $gender)
+function shyConfident($ans=1,  $name,  $gender)
 {
 	$wereOrWas = pronounGrammar($gender);
 
@@ -63,7 +70,7 @@ function shyConfident(int $ans=1, string $name, string $gender)
 
 }
 
-function clumsyGraceful(int $ans=1, string $name, string $gender)
+function clumsyGraceful( $ans=1,  $name,  $gender)
 {
 	$wereOrWas = pronounGrammar($gender);
 
@@ -87,7 +94,7 @@ function clumsyGraceful(int $ans=1, string $name, string $gender)
 		return $graceful[array_rand($graceful)];
 }
 
-function mellowIntense(int $ans=1, string $name, string $gender)
+function mellowIntense( $ans=1,  $name,  $gender)
 {
 	$wereOrWas = pronounGrammar($gender);
 
@@ -114,7 +121,7 @@ function mellowIntense(int $ans=1, string $name, string $gender)
 
 
 
-function organizedMessy(int $ans=1, string $name, string $gender)
+function organizedMessy( $ans=1,  $name,  $gender)
 {
 	$wereOrWas = pronounGrammar($gender);
 
@@ -139,7 +146,7 @@ function organizedMessy(int $ans=1, string $name, string $gender)
 		return $org[array_rand($org)];
 }
 
-function adventurousCautious(int $ans=1, string $name, string $gender)
+function adventurousCautious( $ans=1,  $name,  $gender)
 {
 	$wereOrWas = pronounGrammar($gender);
 
@@ -164,7 +171,7 @@ function adventurousCautious(int $ans=1, string $name, string $gender)
 		return $cautious[array_rand($cautious)];
 }
 
-function aggressiveDocile(int $ans=1, string $name, string $gender)
+function aggressiveDocile( $ans=1,  $name,  $gender)
 {
 	$wereOrWas = pronounGrammar($gender);
 
@@ -187,7 +194,7 @@ function aggressiveDocile(int $ans=1, string $name, string $gender)
 		return $docile[array_rand($docile)];
 }
 
-function strongWeak(int $ans=1, string $name, string $gender)
+function strongWeak( $ans=1,  $name,  $gender)
 {
 	$wereOrWas = pronounGrammar($gender);
 

@@ -1,8 +1,9 @@
 <?php
-	require 'prepop.php';
-	// require 'beanhook.php';
-	require 'madlib.php';
-	// require 'logProcessorLOL.php';
+
+	require_once 'prepop.php';
+	require_once 'beanHook.php';
+	require_once 'madlib.php';
+	require_once 'logProcessorLOL.php';
 
 	$sentences = array();
 
@@ -173,7 +174,7 @@
 	    Confident<br>
 		</label>
 		<br>
-		
+
 
 		<label>
 	    <input type="radio" name="mellowIntense" id="mellow" value="1">
@@ -243,7 +244,7 @@
 	    <h4>What was the last thing you ate?</h4>
 		<input type="text" action="aftermath.php" name="lastAte" placeholder="e.g. Barbacoa & Big Red">
 
-		
+
 		<h4>Which do you value more?</h4>
 		<label>
 		<input type="radio" name="valued" id="family" value="family">
@@ -343,7 +344,7 @@
 		</label>
 	    <br>
 
-		<input type="submit">
+		<input name="add" id="add" type="submit">
 	</form>
 	</div>
 

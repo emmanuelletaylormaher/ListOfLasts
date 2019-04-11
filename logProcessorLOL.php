@@ -1,8 +1,8 @@
 <?php
 
-              
-require 'rb-mysql.php';
-require 'beanHook.php';
+
+require_once 'rb-mysql.php';
+require_once 'beanHook.php';
 
 $importWave = date("Y-m-d H:i:s");
 $testRun = false; // if true, nothing is written to beans
