@@ -40,7 +40,7 @@
 <body>
 	<div style="text-align:center">
 	<h1>Your List of Lasts</h1>
-	<h3>YOUR FAKE DEATH IS OUR ART</h3>
+	<h3>YOUR DEATH IS OUR ART</h3>
 		<form action="aftermath.php" name="survey" method="POST">
 		<h4>What is your first name?</h4>
 		<input type="text" action="aftermath.php" name="name" placeholder="Analysse? Edgar? Ned?">
@@ -66,7 +66,7 @@
 		<h4>What's your occupation?</h4>
 		<input type="text" action="survey.php" name="occupation" placeholder="e.g. Student, Artist">
 
-		<h4>Favorite color?</h4>
+		<h4> What is your favorite color?</h4>
 		<label>
 		<input type="radio" name="faveColor" value="Blue">
 		Blue</label>
@@ -105,12 +105,12 @@
 		<br>
 
 		<h4>What's your favorite kind of music?</h4>
-		<input type="text" action="survey.php" name="faveMusic" placeholder="Except Rap and Country (just kidding).">
+		<input type="text" action="survey.php" name="faveMusic" placeholder="Any genre your pick!">
 
 		<h4>Where's your favorite place to go?</h4>
 		<input type="text" action="survey.php" name="favePlace" placeholder="e.g. Say Sí">
 
-		<h4>Your favorite season?</h4>
+		<h4>What's your favorite season?</h4>
 		<label>
 		<input type="radio" name="season" value="Spring">
 		Spring</label>
@@ -241,9 +241,33 @@
 
 
 
-	    <h4>What was the last thing you ate?</h4>
-		<input type="text" action="aftermath.php" name="lastAte" placeholder="e.g. Barbacoa & Big Red">
+    <h4>Where were you before here?</h4>
+    <input type="text" action="aftermath.php" name="beforeHere" placeholder="School? Home? Work?">
 
+    <h4>What was the last thing you ate?</h4>
+		<input type="text" action="aftermath.php" name="lastAte" placeholder="e.g. Barbacoa & Big Red">
+    <h4>What was the last person you spoke with?</h4>
+    <label>
+    <input type="radio" name="lastspoke" id="friend" value="friend">
+    Friend
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="lastspoke" id="family" value="family">
+    Family
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="lastspoke" id="sigother" value="sigother">
+    Significant Other<br>
+    </label>
+    <label>
+    <input type="radio" name="lastspoke" id="stranger" value="stranger">
+    Stranger<br>
+    <label>
+
+    </label>
+</label>
 
 		<h4>Which do you value more?</h4>
 		<label>
@@ -256,49 +280,23 @@
 	    Family<br>
 		</label>
 
-		<h4>Where were you before here?</h4>
-		<input type="text" action="aftermath.php" name="beforeHere" placeholder="School? Home? Work?">
-
-		<h4>What was the last person you spoke with?</h4>
-
-		<label>
-		<input type="radio" name="lastspoke" id="friend" value="friend">
-		Friend
-		</label>
-		<br>
-		<label>
-		<input type="radio" name="lastspoke" id="family" value="family">
-		Family
-		</label>
-		<br>
-		<label>
-		<input type="radio" name="lastspoke" id="sigother" value="sigother">
-		Significant Other<br>
-		</label>
-		<label>
-		<input type="radio" name="lastspoke" id="stranger" value="stranger">
-		Stranger<br>
-<label>
-
-		</label>
-</label>
-
-		<h6>Try to put some thought into these next questions:</h6>
+		<h6>Put some thought into these next questions:</h6>
 
 		<h4>What is your proudest accomplisment?</h4>
 		<input type="text" action="aftermath.php" name="proudest" placeholder="It could be anything!">
 
-		<h4>What was dark time in your life?</h4>
-		<input type="text" action="aftermath.php" name="dark" placeholder="When was a time you felt low/unsure of yourself?">
+    <h4>Who was the last person that told you they loved you?</h4>
+    <input type="text" action="aftermath.php" name="loveme" placeholder="Parent? Loved one? Sibling?">
+
+    <h4>Who was the last person that you told you loved?</h4>
+    <input type="text" action="aftermath.php" name="loveyou" placeholder="Parent? Loved one? Sibling?">
+
+    <h4>What was dark time in your life?</h4>
+    <input type="text" action="aftermath.php" name="dark" placeholder="When was a time you felt low/unsure of yourself?">
 
 		<h4>If your friends and family were to do an activity to remember you by— what would you want that activity to be?</h4>
 		<input type="text" action="aftermath.php" name="celebrated" placeholder="Dinner? Drinking? Singing?">
 
-		<h4>Who was the last person that told you they loved you?</h4>
-		<input type="text" action="aftermath.php" name="loveme" placeholder="Parent? Loved one? Sibling?">
-
-		<h4>Who was the last person that you told you loved?</h4>
-		<input type="text" action="aftermath.php" name="loveyou" placeholder="Parent? Loved one? Sibling?">
 
 
 		<h4>If you could see anybody one last time, who?</h4>
@@ -311,18 +309,30 @@
 		Child<br>
 		</label>
 		<label>
-		<input type="radio" name="lastseen" id="parent" value="parent">
-		Parent/Guardian<br>
+		<input type="radio" name="lastseen" id="mother" value="parent">
+		Mom<br>
 		</label>
 		<label>
+    <input type="radio" name="lastseen" id="father" value="parent">
+    Dad<br>
+    </label>
+    <label>
+    <input type="radio" name="lastseen" id="parent" value="parent">
+    Parent/Guardian<br>
+    </label>
+    <label>
 		<input type="radio" name="lastseen" id="sibling" value="sibling">
 		Sibling<br>
 		</label>
 		<label>
-		<input type="radio" name="lastseen" id="grandparent" value="grandparent">
-		Grandparent<br>
+		<input type="radio" name="lastseen" id="grandpa" value="grandparent">
+		Grandpa<br>
 		</label>
 		<label>
+    <input type="radio" name="lastseen" id="grandma" value="grandparent">
+    Grandma<br>
+    </label>
+    <label>
 		<input type="radio" name="lastseen" id="relative" value="relative">
 		Other Relative<br>
 		</label>
